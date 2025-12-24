@@ -1,6 +1,9 @@
 ## 📈 Hallazgos Principales
 
 ### 1. Evolución del IMP (2020-2023)
+-**2021: 18.10 → 2022: 18.42 (+1.8%) → 2023: 18.22 (-1.1%)
+Interpretación: Crisis estabilizada, pero requiere vigilancia
+
 ### 2. Distribución por Origen
 - **Exóticos (63.42%):** IMP 18.09 (más críticos)
 - **Nativos (33.10%):** IMP 19.51 (MÁS críticos aún)
