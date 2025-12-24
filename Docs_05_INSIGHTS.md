@@ -1,7 +1,8 @@
 ## 📈 Hallazgos Principales
 
 ### 1. Evolución del IMP (2020-2023)
-- **2021: 18.10 → 2022: 18.42 (+1.8%) → 2023: 18.22 (-1.1%)**
+- **2021: 18.10 → 2022: 18.42 (+1.8%) → 2023: 18.22 (-1.1%)
+
 **Interpretación**: Situacion estable, pero requiere un seguimiento.
 
 ### 2. Distribución por Origen
