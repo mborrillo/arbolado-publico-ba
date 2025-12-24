@@ -35,7 +35,7 @@
 - ⚠️ **Accidentes en aumento:** +15% anual (2020-2022)
 - 📊 **Presupuesto limitado:** Necesidad crítica de priorización
 
-**Este proyecto permite responder:** *"¿A qué 7,436 árboles debo prestar atención PRIMERO?"*
+**Este proyecto permite responder:** *"¿A qué 7,971 árboles debo prestar atención PRIMERO?"*
 
 ---
 
