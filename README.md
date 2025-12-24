@@ -148,10 +148,10 @@ arbolado-publico-ba/
 │ ├── Arbolado-en-espacios-verdes.xlsx ← Muestra fuente de datos
 │ └── data_dictionary.md ← Diccionario de columnas
 │
-├── sql/
-│ ├── 01_limpieza.sql ← Transformaciones iniciales
-│ ├── 02_modelado.sql ← Star schema
-│ └── 03_indicadores.sql ← Cálculo de IMP
+├── Power Query
+│ ├── 01_limpieza ← Transformaciones iniciales
+│ ├── 02_modelado ← Star schema
+│ └── 03_indicadores ← Cálculo de IMP
 │
 └── analysis/
 ├── exploratory_analysis.md ← EDA findings
