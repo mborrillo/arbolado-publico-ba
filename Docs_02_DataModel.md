@@ -18,6 +18,7 @@ Tabla de Dimensiones: dim_especie
 
 Cálculos Derivados (DAX)
 IMP = Ind.Mant.Prev. = ('arbolado-en-espacios-verdes'[altura_tot] + 'arbolado-en-espacios-verdes'[diametro] + 'arbolado-en-espacios-verdes'[inclinacion]) / 3
+
 Criticidad = Estado.IMP = SWITCH(TRUE(),
     'arbolado-en-espacios-verdes'[Ind.Mant.Prev.] <= 22, "Normal",
     'arbolado-en-espacios-verdes'[Ind.Mant.Prev.] <= 30, "Excedidos",
