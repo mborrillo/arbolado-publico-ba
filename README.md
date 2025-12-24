@@ -9,7 +9,7 @@
 
 **Problema:** Buenos Aires tiene 52,000+ árboles públicos. Mantenerlos es caro y peligroso. ¿Cuáles necesitan intervención YA?
 
-**Solución:** Análisis de datos + indicador de priorización (IMP) = 7,436 casos críticos identificados geográficamente.
+**Solución:** Análisis de datos + indicador de priorización (IMP) = casi 8.000 casos críticos identificados geográficamente.
 
 **Impacto:** Reducción de presupuesto ~40% + prevención de accidentes.
 
