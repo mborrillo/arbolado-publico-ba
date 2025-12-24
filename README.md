@@ -20,9 +20,9 @@
 | Métrica | Valor |
 |---------|-------|
 | Árboles analizados | 52,502 |
-| **Casos críticos (IMP > 18)** | **7,436 (14.3%)** |
-| Casos excedidos (15 ≤ IMP ≤ 18) | 8,310 (16.0%) |
-| Casos correctos (IMP < 15) | 36,756 (70.7%) |
+| **Casos críticos (IMP > 18)** | **7,971 (15.48%)** |
+| Casos excedidos (15 ≤ IMP ≤ 18) | 8,580 (16.66%) |
+| Casos correctos (IMP < 15) | 34,951 (67.86%) |
 | Cobertura geográfica | 100% CABA (48 comunas) |
 | Datos históricos | 2020–2023 |
 | Especies analizadas | 358 |
