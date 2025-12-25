@@ -11,4 +11,3 @@ Resultados
 14.3% de árboles requieren intervención inmediata
 Reducción potencial de presupuesto: 40% (enfoque selectivo)
 Cobertura territorial completa CABA
----
