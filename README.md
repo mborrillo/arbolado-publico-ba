@@ -152,7 +152,7 @@ arbolado-publico-ba/
      - Renombra columnas (quita espacios, caracteres especiales)
      - Filtra registros con "S/D" en altura, diámetro
      - Convierte tipos de datos (altura, diámetro → float)
-   - Ver detalles: [Docs_03_METHODOLOGY.md](https://github.com/mborrillo/arbolado-publico-ba/blob/main/Docs_03_METHODOLOGY.md)
+   - Ver detalles: [Docs_03_METHODOLOGY.md](https://github.com/mborrillo/arbolado-publico-ba/blob/main/docs/03_METHODOLOGY.md)
 
 5. **Modelado (Crea el Star Schema):**
    - Fact table: `relevamiento_arboles` (52,502 filas)
@@ -165,7 +165,7 @@ arbolado-publico-ba/
 
 7. **Visualización:**
    - KPI Cards, Donut Charts, Mapa, Tabla de detalles
-   - (Consulta screenshots en [dashboards/](https://github.com/mborrillo/arbolado-publico-ba/tree/main/dashboards))
+   - (Consulta screenshots en [dashboard/](https://github.com/mborrillo/arbolado-publico-ba/tree/main/dashboard))
 
 
 ### Para Reclutadores (Evaluar capacidades)
