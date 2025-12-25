@@ -121,44 +121,14 @@ Interpretación: Situación estable, aunque requiere vigilancia
 
 ## 🏗️ Arquitectura de Datos
 
-
-
 ---
 
 ## 📁 Estructura del Repositorio
 
 arbolado-publico-ba/
-├── README.md ← Estás aquí
-├── LICENSE ← Licencia MIT
-│
-├── docs/
-│ ├── CONTEXT.md ← Problema + contexto
-│ ├── DATA_MODEL.md ← Esquema + diccionario
-│ ├── METHODOLOGY.md ← Proceso de análisis
-│ ├── TECH_STACK.md ← Herramientas + versiones
-│ └── INSIGHTS.md ← Hallazgos detallados
-│
-├── dashboards/
-│ ├── power-bi-report.pbix ← Archivo Power BI original
-│ └── screenshots/
-│ ├── 01_inicio.png ← Portada
-│ ├── 02_home.png ← KPIs + distribución
-│ ├── 03_matriz.png ← Matriz de estado
-│ ├── 04_glosario.png ← Definiciones
-│ └── README.md ← Guía de navegación
-│
-├── data/
-│ ├── Arbolado-en-espacios-verdes.xlsx ← Muestra fuente de datos
-│ └── data_dictionary.md ← Diccionario de columnas
-│
-├── Power Query
-│ ├── 01_limpieza ← Transformaciones iniciales
-│ ├── 02_modelado ← Star schema
-│ └── 03_indicadores ← Cálculo de IMP
-│
-└── analysis/
-├── exploratory_analysis.md ← EDA findings
-└── statistical_summary.md ← Estadísticas descriptivas
+
+<img width="389" height="470" alt="image" src="https://github.com/user-attachments/assets/37f0f3a4-d43d-408b-965a-62f4d2942364" />
+
 
 
 ---
