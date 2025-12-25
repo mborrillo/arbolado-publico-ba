@@ -127,9 +127,7 @@ Interpretación: Situación estable, aunque requiere vigilancia
 
 arbolado-publico-ba/
 
-<img width="389" height="470" alt="image" src="https://github.com/user-attachments/assets/37f0f3a4-d43d-408b-965a-62f4d2942364" />
-
-
+<img width="389" height="470" alt="image" src="https://github.com/user-attachments/assets/f113e755-7546-48dd-91d3-25f0f85903ca" />
 
 ---
 
