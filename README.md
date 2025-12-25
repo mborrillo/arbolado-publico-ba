@@ -41,6 +41,9 @@
 
 ### 🏗️ Arquitectura de la Solución
 
+<img width="349" height="278" alt="image" src="https://github.com/user-attachments/assets/6808812c-d332-4da9-912f-a289aa408abf" />
+
+
 ┌─────────────────┐
 │ DATOS CRUDOS │ 
   CSV/Excel con 
