@@ -1,7 +1,7 @@
 *** Análisis de 52.000 árboles en Buenos Aires para identificar casi 8.000 casos de riesgo de acuerdo a las variables de inclinación, diámetro y altura. usando modelado de datos y priorización cuantitativa.
 
-El Problema El mantenimiento reactivo de arbolado es costoso y peligroso.
-
+El Problema 
+El mantenimiento reactivo de arbolado es costoso y peligroso.
 Costo promedio de extirpación: $15-20k USD
 Accidentes por caída: +15% anual (datos municipales 2021-2023)
 
