@@ -3,7 +3,8 @@
 El Problema El mantenimiento reactivo de arbolado es costoso y peligroso.
 
 Costo promedio de extirpación: $15-20k USD
-Accidentes por caída: +15% anual (datos municipales 2020-2023)
+Accidentes por caída: +15% anual (datos municipales 2021-2023)
+
 La Solución Un cuadro de control que: ✅ Prioriza 52k árboles en 3 categorías (Crítico, Excedido, Correcto) ✅ Mapea geográficamente para optimizar rutas de inspección ✅ Rastrea tendencias temporales 2020-2023
 
 Resultados
