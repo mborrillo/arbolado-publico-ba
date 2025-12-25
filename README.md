@@ -120,6 +120,17 @@ Interpretación: Situación estable, aunque requiere vigilancia
 - La Boca, San Telmo: Concentración media
 - Áreas periféricas: Menor densidad
 
+**Impacto estimado:**
+- Presupuesto optimizado: Enfoque selectivo = 40% de ahorro
+- Reducción de incidentes: Intervención preventiva
+- Mejor experiencia ciudadana: Menos árboles cayéndose
+
+---
+
+## 🏗️ Arquitectura de Datos
+
+
+
 ---
 
 ## 📁 Estructura del Repositorio
