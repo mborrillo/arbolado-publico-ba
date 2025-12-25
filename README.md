@@ -43,44 +43,24 @@
 
 <img width="349" height="278" alt="image" src="https://github.com/user-attachments/assets/6808812c-d332-4da9-912f-a289aa408abf" />
 
-
-┌─────────────────┐
-│ DATOS CRUDOS │ 
-  CSV/Excel con 
+(DATOS CRUDOS) 
+- CSV/Excel con 
   52k registros
-└────────┬────────┘
-│
-(Carga Info + M-Query)
-│
-┌────────▼─────────┐
-│ TABLAS STAGING │ 
-  Normalización de 
-  datos
-└────────┬─────────┘
-│
-(Modelado)
-│
-┌────────▼──────────────┐
-│ STAR SCHEMA (Power BI) │
-├──────────────────────┤
-│ - Fact: relevamiento_arboles
-│ - Dim: especie, 
-    ubicación, período
-└────────┬──────────────┘
-│
-(Cálculos DAX)
-│
-┌────────▼────────┐
-│ KPIs & Métricas│ 
-  IMP, Tendencias
-└────────┬────────┘
-│
-┌────────▼──────────────┐
-│ POWER BI DASHBOARD │ 
-  Visualización 
-  interactiva
-└───────────────────────┘
 
+(Carga Info + M-Query)
+- TABLAS STAGING
+- Normalización de datos
+
+(Modelado)
+- Fact: relevamiento_arboles
+- Dim: especie, ubicación, período
+
+(Cálculos DAX)
+- KPIs & Métricas
+  IMP, Tendencias
+
+(POWER BI DASHBOARD)
+- Visualización interactiva
 
 ---
 
