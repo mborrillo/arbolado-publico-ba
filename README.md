@@ -9,7 +9,7 @@
 
 **Problema:** Buenos Aires tiene 52,000+ árboles públicos. Mantenerlos es caro y peligroso. ¿Cuáles necesitan intervención YA?
 
-**Solución:** Análisis de datos + indicador de priorización (IMP) = casi 8.000 casos críticos identificados geográficamente.
+**Solución:** Análisis de datos + indicador de priorización (IMP) = 7.971 casos críticos identificados geográficamente.
 
 **Impacto:** Reducción de presupuesto ~40% + prevención de accidentes.
 
@@ -24,8 +24,14 @@
 | Casos excedidos (15 ≤ IMP ≤ 18) | 8,580 (16.66%) |
 | Casos correctos (IMP < 15) | 34,951 (67.86%) |
 | Cobertura geográfica | 100% CABA (48 comunas) |
-| Datos históricos | 2020–2023 |
+| Datos históricos | 2021–2023 |
 | Especies analizadas | 358 |
+
+**⚠️ Nota sobre Actualización de Datos:**
+- Este análisis fue completado en **Diciembre 2024**
+- Los datos proceden del dataset público: [Arbolado en Espacios Verdes](https://data.buenosaires.gob.ar/dataset/arbolado-espacios-verdes)
+- **Estado actual:** Snapshot estático. No se actualiza automáticamente.
+- Para análisis actual, descargar datos frescos del portal BA.
 
 ---
 
@@ -66,7 +72,9 @@
 
 ## 🔍 El Indicador IMP (Mantenimiento Preventivo)
 
-### Ind.Mant.Prev. = ('arbolado-en-espacios-verdes'[altura_tot] + 'arbolado-en-espacios-verdes'[diametro] + 'arbolado-en-espacios-verdes'[inclinacion]) / 3
+### IMP = AVERAGE(Altura Normalizada, Diámetro Normalizado, Inclinación Normalizada)
+
+### Version DAX Ind.Mant.Prev. = ('arbolado-en-espacios-verdes'[altura_tot] + 'arbolado-en-espacios-verdes'[diametro] + 'arbolado-en-espacios-verdes'[inclinacion]) / 3
 
 
 ### Interpretación
@@ -89,7 +97,7 @@
 ## 📈 Hallazgos Principales
 
 ### 1. Evolución del IMP (2021-2023)
-2021: 18.40 → 2022: 18.42 (+1.08%) → 2023: 18.22 (-1.1%)
+2021: 18.40 → 2022: 18.42 (+0.11% aprox) → 2023: 18.22 (-1.09%)
 Interpretación: Situación estable, aunque requiere vigilancia
 
 ### 2. Distribución por Origen
@@ -158,10 +166,39 @@ arbolado-publico-ba/
 ## 🚀 Cómo Usar Este Proyecto
 
 ### Para Analistas (Reproducir el análisis)
-1. Descarga `(https://data.buenosaires.gob.ar/dataset/arbolado-espacios-verdes)`
-2. Abre y conecta Power BI con la fuente de Datos
-3. Conecta a Power BI la fuente de Datos
-4. Construye el dashboard
+### Para Analistas (Reproducir el análisis)
+
+1. **Descarga los datos crudos:**
+   - Ve a [Portal BA Datos Abiertos](https://data.buenosaires.gob.ar/dataset/arbolado-espacios-verdes)
+   - Descarga: `Arbolado-en-espacios-verdes.xlsx`
+
+2. **Abre Power BI Desktop**
+   
+3. **Carga los datos:**
+   - Home → Get Data → Excel
+   - Selecciona el archivo descargado
+   - Carga la tabla `arbolado_espacios_verdes`
+
+4. **Transforma los datos (M-Query):**
+   - En Power Query Editor, aplica:
+     - Renombra columnas (quita espacios, caracteres especiales)
+     - Filtra registros con "S/D" en altura, diámetro
+     - Convierte tipos de datos (altura, diámetro → float)
+   - Ver detalles: [Docs_03_METHODOLOGY.md](https://github.com/mborrillo/arbolado-publico-ba/blob/main/Docs_03_METHODOLOGY.md)
+
+5. **Modelado (Crea el Star Schema):**
+   - Fact table: `relevamiento_arboles` (52,502 filas)
+   - Dim tables: `dim_especie`, `dim_ubicacion`, `dim_periodo`
+   - Relaciones (1-a-muchos)
+
+6. **Cálculos DAX:**
+   - Crea medida: `Ind.Mant.Prev.` [ver fórmula arriba]
+   - Crea columnas calculadas para categorizar (CRÍTICO/EXCEDIDO/NORMAL)
+
+7. **Visualización:**
+   - KPI Cards, Donut Charts, Mapa, Tabla de detalles
+   - (Consulta screenshots en [dashboards/](https://github.com/mborrillo/arbolado-publico-ba/tree/main/dashboards))
+
 
 ### Para Reclutadores (Evaluar capacidades)
 1. Lee README + docs/
